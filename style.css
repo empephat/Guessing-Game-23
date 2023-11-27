@@ -1,0 +1,65 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #6096ba;
+    transition: background-color 0.5s ease;
+}
+
+.losingBackground {
+    background-color: red;
+}
+
+.victoryBackground {
+    background-color: rgb(63, 248, 17);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 20% 0;
+    background-color: #a3cef1;
+    margin: auto;
+    width: 50%;
+    padding: 2rem;
+}
+
+.losingBox {
+    background-color: rgb(169, 2, 2);
+}
+
+.victoryBox {
+    background-color: rgb(49, 190, 14);
+}
+
+#guess {
+    border: 2px solid;
+    padding: 0.3rem;
+}
+
+#guessBtn, #restartBtn {
+    border: 2px solid;
+    padding: 0.3rem;
+}
+
+#guessBtn:hover {
+    background-color: #a3cef1;
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+#restartBtn:hover {
+    background-color: #a3cef1;
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+#resultList {
+    list-style: none;
+}
+
